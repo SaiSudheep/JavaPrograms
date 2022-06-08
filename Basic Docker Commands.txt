@@ -1,0 +1,22 @@
+docker version
+docker container inspect
+docker pull tomcat:latest
+docker images
+docker history tomcat
+docker rmi tomcat
+docker run --name nginxservice -d nginx:latest
+docker pull busybox:1.24
+docker search ubuntu | -head 20
+docker ps
+docker inspect nginxservice
+docker stats nginxservice
+docker pause nginxservice
+docker unpause nginxservice
+docker kill nginxservice
+docker start nginxservice
+docker stop nginxservice
+docker ps -a
+docker export nginxservice > test.tar
+docker rm nginxservice
+docker container prune
+docker import test.tar

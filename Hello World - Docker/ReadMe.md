@@ -1,6 +1,6 @@
 Command to build docker image ->  
 
-                                docker build -t hello-world
+                                docker build -t hello-world .
 
 Command to run docker image ->  
                                 

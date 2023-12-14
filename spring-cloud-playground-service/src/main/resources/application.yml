@@ -1,0 +1,10 @@
+spring.config.activate.on-profile: local
+
+# Kafka default configuration
+spring.kafka.bootstrapServers: localhost:9092
+schema.registry.url: http://localhost:8081/
+
+# DynamoDB default configuration
+amazon.dynamodb.endpoint: http://localhost:8001/
+amazon.aws.access: test1
+amazon.aws.key: test231
